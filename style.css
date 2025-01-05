@@ -34,7 +34,7 @@ body{
     text-align: center;
 }
 
-#about-ktv{
+.about-ktv{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -55,7 +55,7 @@ body{
 }
 
 @media (max-width: 600px) {
-    #about-ktv{
+    .about-ktv{
         margin-top: 1px;
         flex-direction: column;
         align-items: center;
@@ -72,4 +72,21 @@ body{
         
     }
 
+}
+
+#footer{
+    margin:100px;
+    gap: 100px;
+}
+@media (max-width: 600px) {
+    #footer{
+        margin:35px;
+        margin-bottom:0px;
+        gap: 10px;
+    } 
+}
+
+#back{
+    padding: 20px;
+    text-align: center;
 }
