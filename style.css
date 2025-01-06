@@ -113,10 +113,6 @@ body{
     margin-right: 100px;
     gap: 10px;
 }
-.nav-element{
-}
-.nav-element:hover{
-}
 
 @media (max-width: 600px) {
     .nav{
